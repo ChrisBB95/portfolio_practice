@@ -1,0 +1,14 @@
+{
+  "name": "portfolio_practice",
+  "version": "1.0.0",
+  "description": "making a portfolio website prototype",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recur"
+  },
+  "author": "Christopher Basketfield",
+  "liscence": "N\\A",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

@@ -4,7 +4,7 @@
   "description": "making a portfolio website prototype",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recur"
+    "sass": "node-sass -w scss/ -wo dist/css/ --recur"
   },
   "author": "Christopher Basketfield",
   "liscence": "N\\A",

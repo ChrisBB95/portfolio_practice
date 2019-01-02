@@ -1,4 +1,5 @@
 @import "config";
+@import "menu";
 
 * {
   box-sizing: border-box;
@@ -14,7 +15,6 @@ body {
   line-height: 1.5;
 }
 
-// Headings
 h1,
 h2,
 h3 {

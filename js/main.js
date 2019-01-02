@@ -2,7 +2,7 @@ const menu = document.querySelector(".menu");
 const menubtn = document.querySelector(".menu-btn");
 const menunav = document.querySelector(".menu-nav");
 const menubrand = document.querySelector(".menu-branding");
-const navitems = document.querySelectorAll("nav-item");
+const navitems = document.querySelectorAll(".nav-item");
 
 let showMenu = false;
 

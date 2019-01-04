@@ -10,5 +10,14 @@
   "liscence": "N\\A",
   "dependencies": {
     "node-sass": "^4.11.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisBB95/portfolio_practice.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisBB95/portfolio_practice/issues"
+  },
+  "homepage": "https://github.com/ChrisBB95/portfolio_practice#readme"
 }

@@ -1,6 +1,6 @@
 .menu-btn {
-  position: absolute;
-  z-index: 3;
+  position: fixed;
+  z-index: 100;
   right: 35px;
   top: 35px;
   cursor: pointer;
@@ -134,7 +134,7 @@ a {
 
 header {
   position: fixed;
-  z-index: 3;
+  z-index: 10;
   min-height: calc(100vh-60px); }
 
 .text-secondary {

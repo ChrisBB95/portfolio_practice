@@ -31,11 +31,7 @@ $background-opacity: 0.3;
 }
 
 @function set-text-color($color) {
-<<<<<<< HEAD
   @if (lightness($color) > 40) {
-=======
-  @if (lightness($color) >40) {
->>>>>>> d5a06e0d3cda3f94ed12699f5d0b5c4f89a9037f
     @return #000;
   } @else {
     @return #fff;
@@ -49,7 +45,7 @@ $background-opacity: 0.3;
 }
 
 @mixin mediaMD {
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 501px) and (max-width: 768px) {
     @content;
   }
 }

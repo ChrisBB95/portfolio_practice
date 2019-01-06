@@ -1,7 +1,13 @@
 @include mediaXL {
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 @include mediaLG {
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @include mediaMD {
@@ -13,6 +19,10 @@
       line-height: 1;
       margin-bottom: 1rem;
     }
+  }
+
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   ul.menu-nav,
@@ -56,5 +66,9 @@
 @include mediaSM {
   main#home h1 {
     margin-top: 10vh;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
   }
 }

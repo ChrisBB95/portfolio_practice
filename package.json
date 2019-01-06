@@ -4,11 +4,14 @@
   "description": "making a portfolio website prototype",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -wo dist/css/ --recur"
+    "sass": "node-sass -w scss/ -wo dist/css/ --recur",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Christopher Basketfield",
   "liscence": "N\\A",
   "dependencies": {
+    "gh-pages": "^2.0.1",
+    "ghpages": "0.0.10",
     "node-sass": "^4.11.0"
   },
   "repository": {
@@ -19,5 +22,5 @@
   "bugs": {
     "url": "https://github.com/ChrisBB95/portfolio_practice/issues"
   },
-  "homepage": "https://github.com/ChrisBB95/portfolio_practice#readme"
+  "homepage": "https://github.com/ChrisBB95/portfolio_practice"
 }

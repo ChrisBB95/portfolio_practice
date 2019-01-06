@@ -134,15 +134,14 @@ a {
 
 header {
   position: fixed;
-  z-index: 10;
-  min-height: calc(100vh-60px); }
+  z-index: 10; }
 
 .text-secondary {
   color: #eece1a; }
 
 main {
   padding: 4rem;
-  height: 100%; }
+  min-height: 95vh; }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
@@ -154,6 +153,8 @@ main {
     overflow: hidden; }
     main#home h1 {
       margin-top: 20vh; }
+  main#contact {
+    text-align: center; }
 
 .about-info {
   display: grid;
@@ -200,6 +201,24 @@ main {
       border-color: #eece1a;
       transition: all 0.5s ease-out; }
 
+.boxes {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 2rem;
+  border: 3px #fff solid;
+  padding: 1.5rem 2.5rem;
+  margin-bottom: 3rem;
+  transition: all 0.5s ease-out; }
+  .boxes:hover {
+    padding: 0.5rem 1.5rem;
+    background: #eece1a;
+    color: #000; }
+    .boxes:hover span {
+      color: #000; }
+
 .btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5rem 1rem;
@@ -222,7 +241,7 @@ main {
   padding: 1rem;
   background: #2b2b2b;
   color: #fff;
-  height: 60px; }
+  height: 5vh; }
 
 @media screen and (min-width: 1171px) {
   .projects {
